@@ -50,7 +50,7 @@
   .Pencil {
     position:relative;
     top: 160px;
-    left:0px;
+    left:-10px;
     width: 16px;
     height: 16px;
     flex-grow: 0;
@@ -58,8 +58,8 @@
   }
   .Nav-Collapsed-Inactive {
     position:relative;
-    top: 200px;
-    left:10px;
+    top: 250px;
+    left:-40px;
     width: 30px;
     height: 48px;
     flex-grow: 0;
@@ -67,6 +67,9 @@
     background-color: #fff;
   }
   .Page-Title {
+    position:absolute;
+    top: 24px;
+    left:104px;
     width: 157px;
     height: 40px;
     font-family: HelveticaNeue;
@@ -80,9 +83,12 @@
     color: #fff;
   }
   .Subhead {
+    position: absolute;
+    top:64px;
+    left: 104px;
     width: 67px;
     height: 20px;
-    margin: 40px 90px 0 0;
+ 
     font-family: HelveticaNeue;
     font-size: 14px;
     font-weight: 500;
@@ -93,22 +99,43 @@
     text-align: left;
     color: #fff;
   }
-  .Rectangle-6 {
+  .Subhead_1 {
     position:absolute;
-    top:152px;
-    left:219px;
-    width: 800px;
-    height: 46px;
+    top: 158px;
+    left:105px;
+    width: 293px;
+    height: 20px;
     flex-grow: 0;
 
-    padding: 8px 0px 8px 21px;
-    border-radius: 50px;
-    background-color: rgba(255, 255, 255, 0.5);
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+  } 
+  ._Step-first {
+    position:absolute;
+    top:50px;
+    left: 498px;
+    width: 170px;
+    height: 44px;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+    padding: 0;
   }
+  
   .Q-Question {
-    position :absolute;
-    top:160px;
-    left:240px;
+    position:absolute;
+    top:8px;
+    left:21px;
     width: 108px;
     height: 40px;
     flex-grow: 0;
@@ -122,35 +149,11 @@
     text-align: left;
     color: #757575;
   }
-
-  .Rectangle-7 {
+  .A-Type-answer-here {
     position:absolute;
-    top:238px;
-    left:219px;
-    width: 200px;
-    height: 152px;
-    flex-grow: 0;
-    padding: 10.5px 299.6px 321.5px 25.5px;
-    border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-  .Subhead {
-    width: 293px;
-    height: 20px;
-    flex-grow: 0;
-    margin: 46px 142px 22px 33px;
-    font-family: HelveticaNeue;
-    font-size: 14px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-  }
-  .A-Submitted-answer {
-    width: 184.9px;
+    top:248px;
+    left:239px;
+    width: 140px;
     height: 40px;
     flex-grow: 0;
     font-family: HelveticaNeue;
@@ -163,140 +166,114 @@
     text-align: left;
     color: #757575;
   }
-  .Rectangle-2 {
-    width: 1368px;
-    height: 112px;
+  .Rectangle-7 {
+    position:absolute;
+    top:238px;
+    left:219px;
+    width: 1073px;
+    height: 300px;
     flex-grow: 0;
-    margin: 0 0 708px;
-    padding: 50px 432px 18px 426px;
+    margin: 30px 0;
+    padding: 10px 913px 250px 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
   }
+  
   .Rectangle-11 {
+    position:absolute;
+    top: 200px;
+    left:104px;
     width: 374px;
     height: 154px;
     flex-grow: 0;
-    margin: 22px 62px 20px 32px;
+
     padding: 20.1px 0 33.4px 1px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.5);
   }
-  .Rectangle-12 {
+  .Rectangle-11_1 {
+    position:absolute;
+    top: 450px;
+    left:104px;
     width: 374px;
     height: 154px;
     flex-grow: 0;
-    margin: 22px 62px 20px 61px;
+
     padding: 20.1px 0 33.4px 1px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.5);
   }
-  .Subhead {
-    width: 293px;
+  .Name-of-DAO-1 {
+   position:absolute;
+   top:18px;
+   left:20px;
+    width: 111px;
     height: 20px;
     flex-grow: 0;
-    margin: 46px 142px 22px 33px;
+
     font-family: HelveticaNeue;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.43;
     letter-spacing: normal;
     text-align: left;
-    color: #fff;
-  }  
-  .Line-1 {
-    width: 373px;
-    height: 93.8px;
-    flex-grow: 0;
-    margin: 0 0 6.7px;
-    padding: 19.9px 231px 53.9px 122px;
-    border: solid 2px #fbe1af;
+    color: #757575;
   }
-  ._Step-first {
 
-    width: 170px;
-    height: 44px;
-    flex-grow: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    gap: 8px;
-    padding: 0;
-  }
-  .Line {
-    width: 170px;
-    height: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 9px 0;
-    padding: 0;
-  }
-  .Step {
-    position:relative;
-    top:352px;
-    left:350px;
-    height: 20px;
-    align-self: stretch;
-    flex-grow: 0;
-  }
-  .Filled {
-    height: 2px;
-    flex-grow: 1;
-    background-color: #6690fc;
-  }
-  .Empty {
-    height: 2px;
-    flex-grow: 1;
-    background-color: #dce3e9;
-  }
-  .Circle {
+  .Details-about-DAO-1user-abilities {
     position: absolute;
-    top:573px;
-    left:50px;
-    width: 20px;
+    top:50px;
+    left:20px;
+    width: 226px;
     height: 20px;
-    margin: 0 75px;
-    padding: 2px 6.5px;
-    border: solid 4px rgba(102, 144, 252, 0.2);
-    background-color: #6690fc;
-  }
-  .Number {
-    width: 7px;
-    height: 16px;
+    flex-grow: 0;
+
     font-family: HelveticaNeue;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.33;
+    line-height: 1.43;
     letter-spacing: normal;
-    text-align: center;
-    color: #fff;
-  }
-._Step-nth {
-  width: 170px;
-  height: 44px;
-  flex-grow: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  gap: 8px;
-  padding: 0;
-}
-._Step-last {
-    width: 170px;
-    height: 44px;
+    text-align: left;
+    color: #757575;
+  }  
+  .Rectangle-6 {
+    position: absolute;
+    top:152px;
+    left:219px;
+    width: 1073px;
+    height: 56px;
     flex-grow: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: stretch;
-    gap: 8px;
-    padding: 0;
-  }
 
-  
+    padding: 8px 944px 8px 21px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .Rectangle-12 {
+    position: absolute;
+    top:200px;
+    left:540px;
+    width: 374px;
+    height: 154px;
+    flex-grow: 0;
+
+    padding: 20.1px 0 33.4px 1px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .Rectangle-12-1 {
+    position: absolute;
+    top:450px;
+    left:540px;
+    width: 225px;
+    height: 0px;
+    flex-grow: 0;
+
+    padding: 0px 129px 209px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
   
